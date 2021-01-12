@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 const Navbar = () => {
   return (
-    <header>
+    <header className='px-4'>
       <nav className="container mx-auto pt-9 pb-12">
         <ul className="text-dark">
           <div className="float-left">
@@ -34,10 +34,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link to="/images">Images</Link>
-            </li>
-            <li>
-              <Link to="/examples">Internal data</Link>
-            </li>
+            </li>           
             <li>
               <Link to="/another">Another</Link>
             </li>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from '../examples/image'
+import Image from '../components/image'
 
 const images = () => {
   return (

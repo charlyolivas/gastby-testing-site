@@ -7,7 +7,7 @@ const Card = ({ item }) => {
   const { slug, title, price, tag, image } = item
   return (
     <Link to={`/products/${slug}`}>
-      <div className="max-w-sm mx-auto overflow-hidden bg-white border rounded shadow my-9">
+      <div className=" bg-white border rounded shadow">
         <div className="relative">
           <div>
             <Img

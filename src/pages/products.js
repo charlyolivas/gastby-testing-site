@@ -10,9 +10,9 @@ const products = ({ data }) => {
         <h1 className="text-primary text-3xl mb-6 px-6 md:px-12">
           All products
         </h1>
-        <div className="flex flex-wrap ">
+        <div className="flex flex-wrap px-6">
           {products.map(item => (
-            <article key={item.id} className="w-full sm:w-1/2 md:w-1/3">
+             <article className="w-full md:w-1/2 lg:w-1/3 md:px-4 lg:px-6 my-5">
               <Card item={item}/>
             </article>
           ))}
@@ -33,7 +33,7 @@ export const query = graphql`
         tag
         image {
           fluid {
-            ...GatsbyContentfulFluid_tracedSVG
+            ...GatsbyContentfulFluid
           }
         }
       }
