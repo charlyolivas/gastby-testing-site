@@ -13,10 +13,10 @@ module.exports = {
     description:
       "A basic Gastby project, the initial boilerplate is cloned from https://github.com/gatsbyjs/gatsby-starter-hello-world - and this project is using for basic testing and adding custom integrations and styles",
     data: [
+      {name:"Gatsby Plugins:", link: "https://www.gatsbyjs.com/plugins"},     
       {name:"Tailwind:", link: "https://tailwindcss.com/"},
       {name:"Tailwindcomponents:", link: "https://tailwindcomponents.com/"},
       {name:"Contentful:", link: "https://www.contentful.com/"},
-      {name:"Gatsby Plugins:", link: "https://www.gatsbyjs.com/plugins"},     
       {name:"unDraw:", link: "https://undraw.co"},     
     ],
     author: "@charlyolivas",
